@@ -13,5 +13,7 @@ Dir.chdir("/Users/schacon/projects/atest") do
   r.commit_index('my commit')
 
   #Shardul#This is a comment to comment just to induce a change in this file.
+  
+  #Adding more comments to enable easy, non-conflict merge.
 	
 end
