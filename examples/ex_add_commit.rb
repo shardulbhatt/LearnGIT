@@ -8,6 +8,7 @@ Dir.chdir("/Users/schacon/projects/atest") do
     File.open(fname, 'w') { |f| f.write('hellor ' + fname) }
     r.add(fname)
     count += 1
+    #r.add(fname)
   end
   r.commit_index('my commit')
 
